@@ -2,7 +2,7 @@ def gv
 
 pipeline {
     agent any
-    //tools maven
+    tools maven
     stages {
         stage("init") {
             steps {
